@@ -3,20 +3,19 @@ function PartnersSection() {
     <section className="section partners" id="partners">
       <div className="container partners__layout">
         <div className="section-head">
-          <p className="section-label">Партнеры и сеть</p>
-          <h2>
-            Блок под партнеров, экспертов, фонды, компании или экосистему
-            проекта.
-          </h2>
+          <p className="section-label">Технологический стек</p>
+          <h2>Инструменты, которые мы используем для решения ваших задач</h2>
         </div>
 
-        <div className="partners__list" aria-label="Типы партнеров">
-          <span>Корпорации</span>
-          <span>Фонды</span>
-          <span>Эксперты</span>
-          <span>Операторы</span>
-          <span>Ангелы</span>
-          <span>R&amp;D команды</span>
+        <div className="partners__list" aria-label="Технологии">
+          <span>React / Vue / Next.js</span>
+          <span>Node.js / Python / C#</span>
+          <span>React Native / Flutter</span>
+          <span>PostgreSQL / MongoDB</span>
+          <span>Docker / Kubernetes</span>
+          <span>C / C++ / Rust</span>
+          <span>LLM / ChatGPT / RAG</span>
+          <span>Arduino / IoT</span>
         </div>
       </div>
     </section>
@@ -24,5 +23,3 @@ function PartnersSection() {
 }
 
 export default PartnersSection;
-
-

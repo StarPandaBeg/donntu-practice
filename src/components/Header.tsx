@@ -6,24 +6,25 @@ function Header({ loginUrl }: HeaderProps) {
   return (
     <header className="site-header">
       <div className="container site-header__inner">
-        <a className="brand" href="#top" aria-label="Кубит">
-          <span className="brand__mark">К</span>
-          <span className="brand__text">
-            <strong>Кубит</strong>
-            <span>startup platform</span>
-          </span>
+        <a className="brand" href="#top" aria-label="Кубитэкс">
+          <span className="brand__logo-placeholder">ЛОГО</span>
         </a>
 
         <nav className="site-nav" aria-label="Основная навигация">
-          <a href="#services">Чем занимаемся</a>
+          <a href="#services">Услуги</a>
           <a href="#cases">Кейсы</a>
-          <a href="#partners">Партнеры</a>
+          <a href="#partners">Стек</a>
           <a href="#contacts">Контакты</a>
         </nav>
 
-        <a className="header-login" href={loginUrl}>
-          Вход
-        </a>
+        <div className="header-actions">
+          <a className="header-login" href={loginUrl}>
+            Вход
+          </a>
+          <a className="header-contact" href="#contacts">
+            Связаться с нами
+          </a>
+        </div>
       </div>
     </header>
   );

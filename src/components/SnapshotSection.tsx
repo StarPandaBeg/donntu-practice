@@ -3,32 +3,32 @@ function SnapshotSection() {
     <section className="section snapshot">
       <div className="container snapshot__layout">
         <div className="snapshot__card">
-          <p className="section-label">Цифры и факты</p>
+          <p className="section-label">Показатели</p>
           <h3>
-            Блок, где можно показать метрики, динамику или конкретные
-            показатели.
+            Технологическая база и опыт внедрения современных решений.
           </h3>
           <div className="snapshot__rows">
             <div>
-              <span>Метрика 1</span>
-              <b>24%</b>
+              <span>Стек технологий</span>
+              <b>50+ инструментов</b>
             </div>
             <div>
-              <span>Метрика 2</span>
-              <b>58%</b>
+              <span>AI интеграции</span>
+              <b>20+ проектов</b>
             </div>
             <div>
-              <span>Метрика 3</span>
-              <b>81%</b>
+              <span>Экспертиза команды</span>
+              <b>Full-cycle</b>
             </div>
           </div>
         </div>
         <div className="snapshot__text">
-          <p className="section-label">Пояснение к цифрам</p>
-          <h2>Отдельный блок под сильный аргумент, результат или важный вывод.</h2>
+          <p className="section-label">Приоритеты</p>
+          <h2>Технологии для развития бизнеса</h2>
           <p>
-            Здесь удобно раскрыть один показатель подробнее и объяснить, почему
-            он важен для клиента или участника программы.
+            Мы не просто следим за ИТ-трендами, а внедряем решения, которые 
+            помогают оптимизировать процессы и создавать новые конкурентные 
+            преимущества. Наш подход основан на надежности и масштабируемости.
           </p>
         </div>
       </div>

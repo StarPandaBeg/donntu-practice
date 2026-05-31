@@ -1,42 +1,50 @@
+import vkIcon from "../assets/vk.svg";
+import tgIcon from "../assets/tg.svg";
+
 function FooterSection() {
   return (
     <footer className="site-footer section" id="contacts">
       <div className="container site-footer__layout">
         <div>
           <p className="section-label">Контакты</p>
-          <h2>Финальный блок с контактами, адресом, каналами связи и картой.</h2>
+          <h2>Готовы обсудить ваш проект?</h2>
         </div>
 
         <div className="contact-grid">
           <div className="contact-block">
-            <a href="mailto:lorem@ipsum.test">lorem@ipsum.test</a>
-            <p>Город / remote</p>
+            <a href="mailto:info@cubitex.ru">info@cubitex.ru</a>
             <p>
-              Здесь можно указать телефон, график связи и короткий комментарий
-              по заявкам.
+              Пишите, если есть идеи для проекта или технические вопросы. Обычно
+              отвечаем быстро и сразу по делу.
             </p>
+            <div className="social-icons">
+              <a href="#" className="social-icon-placeholder" title="VK">
+                <img src={vkIcon} alt="VK" width="24" height="24" />
+              </a>
+              <a href="#" className="social-icon-placeholder" title="Telegram">
+                <img src={tgIcon} alt="Telegram" width="24" height="24" />
+              </a>
+            </div>
           </div>
-
           <div className="contact-panel">
             <div>
               <span>Telegram</span>
-              <strong>@loremipsum</strong>
+              <strong>@cubitex_dev</strong>
             </div>
             <div>
-              <span>Call</span>
-              <strong>+00 000 000 00 00</strong>
-            </div>
-            <div>
-              <span>Address</span>
-              <strong>Lorem street, 42</strong>
+              <span>Позвонить</span>
+              <strong>+7 (999) 000-00-00</strong>
             </div>
           </div>
         </div>
 
         <div className="map-placeholder" aria-label="Место под карту">
           <div className="map-placeholder__inner">
-            <span>Место под Яндекс.Карту</span>
-            <p>Сюда можно встроить iframe или JS-виджет карты позже.</p>
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab3ba30b8db717519f201b72dfded57c7d4bdb392d19154984bf4639a489e617f&amp;source=constructor"
+              width="100%"
+              height="100%"
+            ></iframe>
           </div>
         </div>
       </div>

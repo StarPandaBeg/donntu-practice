@@ -5,51 +5,48 @@ function HeroSection() {
     <section className="hero section">
       <div className="container hero__layout">
         <div className="hero__content">
-          <p className="eyebrow">Главный экран</p>
-          <h1>Краткий заголовок с основным предложением платформы.</h1>
+          <p className="eyebrow">Команда КУБИТЭКС</p>
+          <h1>Превращаем бизнес-задачи в работающие ИТ-продукты</h1>
           <p className="lead">
-            Здесь будет короткое описание: для кого Кубит, какую задачу решает
-            и почему пользователю стоит идти дальше по странице.
+            Специализируемся на веб-сервисах, мобильных приложениях и решениях в 
+            области ИИ. Обеспечиваем полный цикл разработки: от проектирования 
+            архитектуры до внедрения и поддержки.
           </p>
 
           <div className="hero__actions">
             <a className="button button--dark" href="#apply">
-              Основной CTA
+              Обсудить проект
             </a>
             <a className="button button--light" href="#about">
-              Подробнее
+              О компании
             </a>
           </div>
         </div>
 
         <div className="hero__visual" aria-hidden="true">
-          <img src={img1} alt="" />
+          <img src={img1} alt="Cubitex Technology" />
         </div>
 
         <div className="hero__band" aria-label="Ключевые показатели">
           <div className="panel-note hero__note">
-            <span className="panel-note__label">Ключевой акцент</span>
+            <span className="panel-note__label">Компетенции</span>
             <p>
-              Сюда можно вынести важный тезис, формат программы или основную
-              пользу для клиента.
+              Глубокая экспертиза в системном программировании, интеграции LLM 
+              и создании высоконагруженных бэкенд-систем.
             </p>
           </div>
           <div className="hero__metrics">
             <div className="metric">
-              <span className="metric__value">12 недель</span>
-              <span className="metric__label">
-                пример длительности программы
-              </span>
+              <span className="metric__value">Full-stack</span>
+              <span className="metric__label">комплексная разработка</span>
             </div>
             <div className="metric">
-              <span className="metric__value">1:1</span>
-              <span className="metric__label">формат сопровождения</span>
+              <span className="metric__value">AI / ML</span>
+              <span className="metric__label">внедрение нейросетей</span>
             </div>
             <div className="metric">
-              <span className="metric__value">Pilot-ready</span>
-              <span className="metric__label">
-                ожидаемый результат на выходе
-              </span>
+              <span className="metric__value">DevOps</span>
+              <span className="metric__label">стабильная инфраструктура</span>
             </div>
           </div>
         </div>
